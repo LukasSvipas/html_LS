@@ -1,0 +1,55 @@
+p{
+	color: red; /*p teksto spalva */
+}
+article{
+	color: blueviolet; /* article teksto spalva ir lygiavimas desinej */
+	text-align: left;
+}
+h1{
+	text-transform: uppercase; /*kad h1 butu didziosiomis */
+}
+#antranaujiena{
+	color: greenyellow;
+}
+.trecia{
+	font-size: 3em;
+}
+.bg-grey{ /*klases selektorius*/
+	background: lightgrey;
+}
+a{
+	color: darkblue;
+}
+a[href="https://kitm.lt"]{
+	color: darkgreen;
+}
+a[href$="pdf"]{
+	color: green;
+}
+a[href$="xlsx"]{
+	color: yellow;
+}
+a[href$="ppt"]{
+	color: black;
+}
+a:hover{
+	color: mediumaquamarine; /* galima pridet ir background ir panasiai */
+}
+ul :nth-child(2n+1) a{
+	color: pink;
+}
+section ul li:nth-child(2n+2){
+	background: tomato;
+}
+p::first-letter{
+	font-size: 2em;
+}
+h1,h2,p{
+	text-align: center;
+}
+.catalog ul>li{
+	color: red;
+}
+.catalog ul>li>ul>li{
+	color: darkgreen;
+}
